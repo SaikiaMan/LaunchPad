@@ -17,7 +17,7 @@ contract Fatotry {
     function create(
         string memory _name,
         string memory _symbol,
-        ) {
+        ) external payable {
             // create new Token 
             Token token = new Token(msg.sender, _name, _symbol, 1_000_000 ether);
 
