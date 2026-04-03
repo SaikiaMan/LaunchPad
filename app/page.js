@@ -25,7 +25,7 @@ export default function Home() {
   const [showTrade, setShowTrade] = useState(false)
   const [status, setStatus] = useState("")
 
-  const TARGET_CHAIN_ID_HEX = "0x7A69" // 31337 Hardhat
+  const TARGET_CHAIN_ID_HEX = "0xaa36a7" // 11155111 Sepolia
 
   function openCreate() {
     if (factory && account) {
